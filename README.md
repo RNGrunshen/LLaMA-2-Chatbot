@@ -6,7 +6,7 @@ We developed our dialogue system using the **Streamlit front-end framework and L
 2. The image generation system based on Dall-E 3 supports text, voice and image inputs, and produces image outputs.
 <div align="center">
     <figure>
-        <img src="Homepage.png" style="width: 100%; max-width: 750px;"/>
+        <img src="images/Homepage.png" style="width: 100%; max-width: 750px;"/>
     </figure>
 </div>
 
@@ -36,7 +36,7 @@ streamlit run /Users/jiatianrun/LLM/Homepage.py --server.enableWebsocketCompress
 
 There are two kinds of chatbot:
 
-### LLaMA Chatbot
+## LLaMA Chatbot
 Our LLaMA Chatbot features the following functions:
 
 1. Adjusting LLM parameters. Users can manipulate sliders to change the model's temperature, context length, and cumulative probability.
@@ -53,7 +53,7 @@ Our LLaMA Chatbot features the following functions:
     </figure>
 </div>
 
-### DALL-E Image Generator 
+## DALL-E Image Generator 
 Since LLaMA does not possess the capability to understand visual modal semantics, in order to expand and enrich the modal functionalities of the dialogue system, we utilize the OpenAI DALL-E 3 API.
 
 We have implemented the following features:
