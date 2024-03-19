@@ -28,7 +28,7 @@ from PIL import Image
 
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 st.set_page_config(page_title="LLM", page_icon="🤖", layout="wide", initial_sidebar_state="expanded")
 left, core, right = st.columns([1, 1, 1])
 col1, col2 = st.columns(spec=2)
