@@ -1,4 +1,4 @@
-# LLaMA-2 Chatbot
+# LLaMA-2 Chatbot with streamlit and longchain
 We developed our dialogue system using the **Streamlit front-end framework and Longchain back-end framework**. Our dialogue system supports multimodal inputs and outputs:
 
 1. The chat system based on the LLaMA model supports text and voice modalities for both inputs and outputs.
